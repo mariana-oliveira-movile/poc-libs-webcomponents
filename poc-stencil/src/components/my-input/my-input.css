@@ -25,7 +25,7 @@ input {
   border: 1px solid #dcdce6;
   border-radius: 8px;
   padding: 0 24px;
-  margin-bottom: 25px; 
+  margin-bottom: 10px; 
   margin-top: 10px; 
 }
 
@@ -38,6 +38,14 @@ h4 {
 p {
   margin-top: 10px;
   color: white;
+}
+
+span {
+  width: fit-content;
+  background-color: red;
+  color: white;
+  font: 400 18px Roboto, sans-serif;
+  margin-bottom: 25px; 
 }
 
 .container {

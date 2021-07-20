@@ -29,11 +29,15 @@ export class MyInput {
             value={this.value} onInput={(event) => this.handleChange(event)}
           />
         </label>
+
+        {this.value && !this.value.includes(" ") ? 
+        <span>You should write your full name!</span>
+        : null}
+
         <div>
           <h4>Your name is:</h4>  
           <p>{this.value}</p>
         </div>
-
 
       </div>
     )
